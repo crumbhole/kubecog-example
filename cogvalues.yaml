@@ -1,0 +1,4 @@
+argocd:
+  ha: false
+platform:
+  provider: rke
