@@ -1,4 +1,7 @@
-argocd:
-  ha: false
+domain:
+  name: kubecog.com
 platform:
   provider: rke
+argocd:
+  ha: false
+
