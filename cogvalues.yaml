@@ -1,7 +1,9 @@
 domain:
-  name: kubecog.com
+  name: "example.kubecog.com"
 platform:
-  provider: rke
+  provider: k3d
+  dns: cloudflare
 argocd:
   ha: false
-
+ingressNginx:
+  test: true
