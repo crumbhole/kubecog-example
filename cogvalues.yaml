@@ -5,5 +5,4 @@ platform:
   dns: cloudflare
 argocd:
   ha: false
-ingressNginx:
-  test: true
+prometheus: true
