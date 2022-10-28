@@ -4,4 +4,4 @@ platform:
   provider: k3d
   dns: cloudflare
   ha: false
-  metrics: true
+  metrics: false
