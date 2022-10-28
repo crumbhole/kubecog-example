@@ -3,5 +3,5 @@ domain:
 platform:
   provider: k3d
   dns: cloudflare
-  ha: true
-  metrics: true
+  ha: false
+  metrics: false
