@@ -3,6 +3,4 @@ domain:
 platform:
   provider: k3d
   dns: cloudflare
-argocd:
-  ha: true
-prometheus: false
+  ha: false
