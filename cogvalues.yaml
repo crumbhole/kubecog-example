@@ -4,5 +4,5 @@ platform:
   provider: k3d
   dns: cloudflare
 argocd:
-  ha: false
-prometheus: true
+  ha: true
+prometheus: false
